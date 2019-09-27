@@ -29,6 +29,9 @@ elif what == "/":
 	c = a / b
 	print("Результат: " + str(c))
 
+elif what == "mead":
+    print("Медовуха - классно")	
+
 
 else:
     print("Неверная опирация!")
