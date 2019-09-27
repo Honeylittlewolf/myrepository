@@ -5,7 +5,7 @@ init()
 print( Back.GREEN )
 print( Fore.BLACK )
 print("Little wolf calculator v0.1")
-what = input("Необходимая опирация? (+,-): ")
+what = input("Необходимая опирация? (+,-,*,/): ")
 print( Back.CYAN )
 print( Fore.BLACK )
 a = float(input("Первое число: "))
@@ -20,6 +20,15 @@ if what == "+":
 elif what == "-":
 	c = a - b
 	print("Результат: " + str(c))
+
+elif what == "*":
+    c = a * b	
+    print("Результат: " + str(c))
+
+elif what == "/":
+	c = a / b
+	print("Результат: " + str(c))
+
 
 else:
     print("Неверная опирация!")
